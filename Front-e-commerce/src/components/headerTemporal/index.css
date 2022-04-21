@@ -1,0 +1,71 @@
+.preHeader {
+  background: #7E33E0;
+  padding: 0.5rem 2rem;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+}
+.preheader-log-in {
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    position: relative;
+  }
+  /* header no existe en este prototipo aun */
+  #logo {
+    font-size: 2rem;
+}
+
+.header__menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+  .header__menu {
+    width: 36px;
+  }
+  
+  
+  
+  .header__nav--close-menu-container {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  
+  .header__nav--close-menu {
+    width: 36px;
+  }
+  
+  .header__ul {
+    display: flex;
+    list-style: none;
+  }
+ 
+  
+  .header__a {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.header__a:hover {
+  color: #FB2E86;
+  border-radius: 0;
+}
+  
+  

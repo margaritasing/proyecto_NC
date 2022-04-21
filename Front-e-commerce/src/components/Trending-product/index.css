@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.lista-producto-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 1050px;
+    margin: auto;
+}
+@media (max-width: 1100px) {
+    .lista-producto-all {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+.contenedor-imagenes-sofa {
+    display: flex;
+}
+.contenedor-imagenes-sofa__sofa {
+    width: 500px;
+}
+.relativo {
+    position: relative;
+    left: -509px;
+    z-index: 0;
+
+}
+@media (max-width: 1100px) {
+    .zona-listas-y-botones {
+        max-width: 500px;
+    }
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.lista-titulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+.contenedor-de-listas {
+    display: grid;
+    gap: 13px;
+    margin: 38px 0;
+}
+
+.lista-texto {
+    font-family: 'Lato', sans-serif;
+    color: rgba(172, 171, 195, 1);
+    font-size: 16px;
+}
+.lista-texto::marker {
+    color: rgba(245, 43, 112, 1);
+}
+
+.lista-boton-agregar-al-carrito {
+    width: 157px;
+    height: 45px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(251, 46, 134, 1);
+    border-radius: 2px;
+    border: none;
+}
+.lista-boton-agregar-al-carrito:hover {
+    cursor: pointer
+}
+.lista-descripcion-carrito {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.lista-contenedor-texto-agregar-al-carrito {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.lista-contenedor-texto-precio {
+    color: rgba(21, 24, 117, 1);
+}

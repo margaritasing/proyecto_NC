@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.AWIA-all-content-container {
+    background-color: #F6F5FF;
+    width: 100%;
+}
+.AWIA-all-content {
+    min-height: 286px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+  
+}
+@media (max-width: 765px) {
+    .AWIA-all-content {
+        align-items: center;
+    }
+}
+.AWIA-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    margin-left: 15px;
+}
+.AWIA-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 2px;
+    font-size: 16px;
+}
+.AWIA-text.AWIA-text-pink {
+    color: rgba(251, 46, 134, 1);
+}

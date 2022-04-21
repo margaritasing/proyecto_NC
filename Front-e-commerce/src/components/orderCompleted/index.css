@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+.OC-all-content-container {
+    display: grid;
+    grid-template-columns: 1fr 625px 1fr;
+    min-height: 400px;
+    padding: 20px 0px 20px 0px;
+}
+
+.OC-img-reloj {
+    width: 94px;
+    height: 94px;
+}
+.OC-img-libreta {
+    width: 60.42px;
+    height: 70px;
+}
+.OC-img-confirmado {
+    width: 46.08px;
+    height: 36.91px;
+}
+.OC-subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    text-align: center;
+}
+.OC-body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.OC-center-column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.OC-text-and-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.OC-button-container {
+    display: flex;
+    justify-content: center;
+}
+.OC-button {
+    background: rgba(255, 23, 136, 1);
+    color: white;
+    padding: 15px 36px;
+    font-size: 16px;  
+    border-radius: 4px;
+    border: none; 
+}
+.OC-button:hover {
+    cursor: pointer;
+}
+.OC-button:active {
+    background: rgb(6, 156, 156);
+    transition: .3s;
+}
+
+.OC-img-libreta-container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

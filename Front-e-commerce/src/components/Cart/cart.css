@@ -1,0 +1,9 @@
+.thumbImg{
+    width: 2rem;
+}
+th {
+    background: #f0f2f5;
+}
+.deleteButton {
+    cursor: pointer;
+}

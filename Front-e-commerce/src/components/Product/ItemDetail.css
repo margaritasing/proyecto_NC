@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+}
+.price, .detail{
+    margin: 2rem 0;
+    font-weight: 300;
+}
+.price{
+    color: #151875
+}
+.productTitle {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0D134E;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: 'Josefin sans';
+}
+.category {
+    padding-block: 3rem;
+}
+.quantity {
+    background: #e7f0f9;
+    padding: 1rem;
+}

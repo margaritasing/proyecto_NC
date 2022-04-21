@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.footer-background-full-width {
+    width: 100%;
+    background-color: rgba(238, 239, 251, 1);
+}
+.footer-all-content-container {
+    display: grid;
+    padding: 100px 0px;
+}
+@media (max-width: 960px) {
+    .footer-all-content-container {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+@media (min-width: 960px) {
+    .footer-all-content-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+@media (max-width: 960px) {
+    .footer-column {
+        gap: 20px
+    }
+}
+.footer-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+@media (max-width: 960px) {
+    .footer-title {
+        margin-top: 20px;
+    }
+}
+.footer-title-social-media {
+    text-align: center;
+}
+.footer-unlistened  {
+    display: grid;
+    gap: 20px;
+}
+
+.footer-lista {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;  
+}
+.footer-lista__a {
+    color: rgba(138, 143, 185, 1);
+}
+.footer-lista__a:hover {
+    transition: .3s;
+    color: rgb(9, 17, 87);
+}
+.footer-social-media-icons {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social-media-icon {
+    width: 40px;
+}

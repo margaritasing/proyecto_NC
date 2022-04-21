@@ -1,0 +1,21 @@
+.itemListContainer-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        border-radius: 1;
+        padding: 2rem 0; 
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        width: fit-content;
+}
+@media(min-width: 769px) {
+    .itemListContainer-box {
+        grid-template-columns: 360px 360px;
+    }
+}
+@media(min-width: 1200px) {
+    .itemListContainer-box {
+        grid-template-columns: 360px 360px 360px;
+    }
+}

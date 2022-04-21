@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap'); /*Josefin sans 100w*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.wso-contenedor-general {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0px;
+  gap: 26px;
+}
+.support--title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: rgba(21, 24, 117, 1);
+  text-align: center;
+}
+.columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 28px;
+}
+@media(max-width: 600px) {
+  .columnas {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+  .columnas {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .columnas {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.wso--contenido {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: 270px;
+  height: 320px;
+  background-color: rgba(49, 32, 138, 0.05);
+}
+.wso--contenido__parrafo {
+  width: 217px;
+}
+.wso--parrafo {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(26, 11, 91, 0.3);
+}
